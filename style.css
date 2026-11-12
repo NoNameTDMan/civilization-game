@@ -36,3 +36,6 @@ button,select,summary{touch-action:manipulation}
 .brand-text strong,.view-head h1,.modal h2{font-family:inherit;font-weight:850;letter-spacing:.015em}
 .brand-text strong{font-size:23px;letter-spacing:.035em}.view-head h1{font-size:23px}.modal h2{letter-spacing:.02em}
 .resource-val{font-variant-numeric:tabular-nums;font-feature-settings:"tnum"}
+
+/* v0.5.1 automation state */
+.auto-on{background:#31624b!important;border-color:#9bd7a7!important;color:#f0ffec!important;box-shadow:inset 0 0 0 1px #b9e5bd55}
