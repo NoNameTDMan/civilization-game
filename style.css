@@ -30,3 +30,9 @@ button,select,summary{touch-action:manipulation}
 .click-upgrade>div{min-width:0}.click-upgrade small{display:block;color:#b8c4b7;font-size:10px;margin-top:4px;line-height:1.5}
 .auto-on{border-color:#84bc88!important;color:#c4f1b6!important}
 .card-foot{flex-wrap:wrap;gap:7px}.card-foot .cost{flex:1;min-width:120px}
+
+/* v0.4: Japanese UI sans-serif display typography */
+:root{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic",Meiryo,system-ui,sans-serif}
+.brand-text strong,.view-head h1,.modal h2{font-family:inherit;font-weight:850;letter-spacing:.015em}
+.brand-text strong{font-size:23px;letter-spacing:.035em}.view-head h1{font-size:23px}.modal h2{letter-spacing:.02em}
+.resource-val{font-variant-numeric:tabular-nums;font-feature-settings:"tnum"}
